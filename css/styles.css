@@ -69,8 +69,9 @@ img {
 }
 
 .headliner {
-  font-size: 3em;
   background-color: white;
+  padding: 0.5em 0.5em 0;
+  font-size: 2.5em;
 }
 
 .text-start,
@@ -78,12 +79,16 @@ img {
   background-color: white;
 }
 
+.text-start {
+  padding: 0.5em;
+}
+
 .text-middle {
-  width: min (100%, 600px)
+  padding: 1.5em 1em 1em 1.5em;
 }
 
 .bg_img1 {
-filter: opacity(50%);
+  filter: opacity(50%);
 }
 
 p {
@@ -92,26 +97,30 @@ p {
 }
 
 h2 {
-  margin: 0 0.5em 1em;
+  margin: 0;
+  padding: 0 0 1em 0;
+  line-height: 110%;
 }
-
 .text1,
 .text2,
 .text3 {
   background-color: bisque;
-  margin: 13%;
-  padding: 2%;
+  margin: 10%;
+  padding: 1em;
   font-family: "Cambay", sans-serif;
+  color: rgb(65, 29, 25);
   font-size: 20px;
+  align-self: center;
+  border: 1px solid brown;
   z-index: 1 !important;
-
 }
 
 .img3,
 .img4,
 .img5 {
   margin: 10%;
-  padding: 2%;
+
+
 }
 
 .img5 {
@@ -123,6 +132,21 @@ h2 {
   z-index: 1 !important;
 }
 
-.headliner {
-    padding: 0.5em 0.5em 0;
+footer p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 780px) {
+  p {
+    font-size: 18px;
+  }
+
+  .headliner {
+    font-size: 20px;
+  }
+
+  .text-start {
+    background-color: bisque;
+    margin: 1em 0;
+  }
 }
