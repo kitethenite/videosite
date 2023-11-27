@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+}
+
+.bg_img1 {
+  top: 0%;
+  background-image: url(../img/edited_yarn.webp);
+  background-color: white; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  filter: opacity(50%);
+}
+
+.bg_img2 {
+  background-image: url(../img/horisontal2.webp);
+  background-color: #7162d2;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(50%);
+}
+
+.bg_img3 {
+  background-image: url(../img/edited_blue_sweater.png);
+  /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  filter: opacity(50%);
+}
+
+.bg_img1,
+.bg_img2,
+.bg_img3 {
+  margin: 5em 0;
+}
+
+nav {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffecec;
+  color: #272020;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav a {
+  margin: 0 2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b73838;
+}
+
+.overlay-headliner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 43.2%;
+  color: #ffffff;
+
+  text-align: left;
+  font-size: 80px;
+}
+
+.overlay-headliner h1 {
+  grid-column: 3;
+  position: relative;
+  background: rgba(63, 63, 92, 0.2);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #ffecec;
+  color: #272020;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text-middle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffecec;
+  color: #272020;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+}

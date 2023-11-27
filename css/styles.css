@@ -1,0 +1,108 @@
+/****** both mobile and desktop *******/
+@font-face {
+  font-family: "Cambay";
+  src: url("Cambay-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cambay";
+  src: url("Cambay-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cambay";
+  src: url("Cambay-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cambay";
+  src: url("Cambay-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("RobotoMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("RobotoMono-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  font-family: "Cambay", sans-serif;
+}
+
+nav a {
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(179, 179, 179);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.headliner {
+  font-size: 3em;
+  background-color: white;
+}
+
+.text-start {
+  background-color: white;
+}
+
+.text-middle {
+  background-color: white;
+}
+
+.text-start,
+.text-middle {
+  font-size: 1.5em;
+}
+
+.text1,
+.text2,
+.text3 {
+  background-color: bisque;
+  margin: 13%;
+  padding: 2%;
+  font-family: "Cambay", sans-serif;
+  font-size: 20px;
+}
+
+.img3,
+.img4,
+.img5 {
+  margin: 10%;
+  padding: 2%;
+}
+
+.img5 {
+  margin: -8%;
+}

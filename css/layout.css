@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 6%;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  z-index: 1;
+}
+
+nav a {
+  padding: 1em;
+}
+
+.img-container {
+  grid-column: 1/-1;
+  grid-row: 1/11;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bg_img1 {
+  grid-column: 1/-1;
+}
+
+.bg_img2 {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+.overlay-container {
+  grid-column: 1/-1;
+  grid-row: 3/-1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.headliner {
+  grid-column: 2/-1;
+  font-size: 3em;
+  align-self: center;
+  justify-self: center;
+  padding: 0.5em 0.5em 0;
+}
+
+.text-start {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 1em;
+  align-self: center;
+  justify-self: center;
+  z-index: 2;
+}
+
+.text-middle {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+  z-index: 3;
+}
+
+.text-start,
+.text-middle {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+#grey-filter {
+  grid-column: 2;
+  grid-row: 1/11;
+  backdrop-filter: grayscale(100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/****** about page ***********/
+
+.main-grid-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-about {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-about  img {
+    width: 100%;
+}
+
+.img3 {
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.text1 {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.img4 {
+  grid-column: 1;
+}
+
+/* .text2 {
+
+} */
+.img5 {
+ grid-column: 1/-1;
+ grid-row: 4;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.text3 {
+grid-column: 1/-1;
+}
+
+/******************** desktop site **********************/
+/* @media only screen and (min-width: 768px) {
+} */
+/*********************** mobile site ************************/
+
+@media only screen and (max-width: 768px) {
+  /* det som ska stå här är textstorlekar, och eventuell gridplaceringar. Framförallt till About-page */
+}
