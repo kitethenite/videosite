@@ -73,17 +73,26 @@ img {
   background-color: white;
 }
 
-.text-start {
-  background-color: white;
-}
-
-.text-middle {
-  background-color: white;
-}
-
 .text-start,
 .text-middle {
-  font-size: 1.5em;
+  background-color: white;
+}
+
+.text-middle {
+  width: min (100%, 600px)
+}
+
+.bg_img1 {
+filter: opacity(50%);
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 23px;
+}
+
+h2 {
+  margin: 0 0.5em 1em;
 }
 
 .text1,
@@ -94,6 +103,8 @@ img {
   padding: 2%;
   font-family: "Cambay", sans-serif;
   font-size: 20px;
+  z-index: 1 !important;
+
 }
 
 .img3,
@@ -105,4 +116,13 @@ img {
 
 .img5 {
   margin: -8%;
+}
+
+.videotag {
+  padding: 0.5em;
+  z-index: 1 !important;
+}
+
+.headliner {
+    padding: 0.5em 0.5em 0;
 }
